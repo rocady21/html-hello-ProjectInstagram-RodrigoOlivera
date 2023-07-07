@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    background: rgb(221, 221, 221);
+}
+
+nav {
+    background: white;
+    padding: 20px 0px;
+
+}
+nav p {
+    font-size: 35px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCard {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 600px;
+    background: white;
+    margin: 25px 0px 25px 0px;
+    box-shadow: -2px 5px 17px -9px rgba(0,0,0,1);
+    -webkit-box-shadow: -2px 5px 17px -9px rgba(0,0,0,1);
+    -moz-box-shadow: -2px 5px 17px -9px rgba(0,0,0,1);
+}
+
+.postCard .Info {
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.postCard .Photo {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    background-image: url("./Imgs/fondo.jpg") ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+.postCard .Photo img {
+    align-items: center;
+    width: 100%;
+    object-fit: contain;
+    vertical-align: bottom;
+    border: none;
+}
+.postCard .Text  {
+    height: 20%;
+    width: 100%;
+    color: black;
+    padding: 20px;
+    line-height: 25px;
+    border-top: 1px solid rgb(228, 228, 228);
+
+}
